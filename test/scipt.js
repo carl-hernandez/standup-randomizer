@@ -1,4 +1,4 @@
-let classArray= ['George', 'Carl', 'Jeffrey', 'Cody', 'Kevin', 'Ashton', 'John', 'Kathleen', 'Brent', 'Cody', 'Ryan', 'Ricardo', 'Sarah', 'Keith', 'Cole', 'Matt']
+let classArray= ['George', 'Carl', 'Jeffrey', 'Cody', 'Kevin', 'Ashton', 'John', 'Kathleen', 'Brent', 'Mauricio', 'Ryan', 'Ricardo', 'Sarah', 'Keith', 'Cole', 'Matt']
 
 // function shuffle() {
 // 	let group = document.getElementById('text1').innerText
@@ -22,3 +22,6 @@ function shuffle(array) {
 	}
 }
 shuffle(classArray)
+console.log(classArray)
+let newNames = shuffle(classArray)
+document.getElementById('target').innerHTML = newNames
